@@ -1,0 +1,28 @@
+{
+  "streams": [
+    {
+      "title": "My stream ",
+      "description": "This is a great stream.",
+      "userId": "114857058980684443929",
+      "id": 1
+    },
+    {
+      "title": "Dota stream",
+      "description": "Only for Dota fans",
+      "userId": "11485705898068443929",
+      "id": 2
+    },
+    {
+      "title": "New stream",
+      "description": "The most interesting stream ever in my life. ",
+      "userId": "114857058980684443929",
+      "id": 3
+    },
+    {
+      "title": "Andrii + Ira",
+      "description": "Love forever. To the moon and back.<3",
+      "id": 4,
+      "userId": "114857058980684443929"
+    }
+  ]
+}
