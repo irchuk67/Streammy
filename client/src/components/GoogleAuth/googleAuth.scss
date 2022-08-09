@@ -1,0 +1,13 @@
+@import "../../base";
+
+.css-i4bv87-MuiSvgIcon-root{
+  margin-right: .5rem;
+}
+
+#button-in{
+  @include dangerousButton;
+}
+
+#button-out{
+  @include simpleButton;
+}

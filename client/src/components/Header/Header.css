@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  box-shadow: 0 0.2rem 0.6rem rgba(5, 19, 103, 0.5);
+}
+.header__menu {
+  list-style: none;
+  display: flex;
+}
+.header__menu--item {
+  margin: 0 1.5rem;
+}
+.header__menu--link {
+  text-decoration: none;
+  color: #051367;
+  font-size: 1.5rem;
+  padding: 1rem;
+  transition: all 0.3s;
+}
+.header__menu--link:hover, .header__menu--link:active {
+  color: #DFF6FF;
+  background-color: #051367;
+}
+
+.logo {
+  text-decoration: none;
+  color: #051367;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=Header.css.map */

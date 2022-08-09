@@ -1,0 +1,44 @@
+@import "../../base";
+.modal{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  &__content{
+    background-color: white;
+    padding: 2rem;
+    border-radius: .5rem;
+    width: 50vw;
+
+    &--heading{
+      @include heading(600);
+    }
+    &--text{
+      @include heading(400);
+      font-size: 1.4rem;
+    }
+    &--row{
+      display: flex;
+      justify-content: end;
+      margin-top: 1.5rem;
+
+      & > *{
+        @include button;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+
+
+}
+
+.delete{
+  @include dangerousButton;
+  margin-right: 1.5rem;
+}
+
+.cancel{
+  @include simpleButton;
+}

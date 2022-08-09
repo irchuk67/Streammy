@@ -1,0 +1,60 @@
+@import "../../base";
+
+.stream-form{
+  margin: 1rem 1.5rem;
+
+
+  &--field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+
+  &--label{
+    font-size: 1.5rem;
+    color: $color-primary-4;
+  }
+
+  &--input{
+    border: none;
+    background-color: 1px solid $color-primary-1;
+    box-shadow: 0 .2rem 1rem rgba($color-primary-4, .3);
+    width: 40%;
+    line-height: 2.5rem;
+    transition: all .3s;
+    padding: 0 1rem;
+    &:focus-visible{
+      outline: none;
+      transform: scale(1.025);
+    }
+
+    /*&:valid{
+      background-color: #2D31FA;
+    }
+    &:invalid{
+      background-color: #BC0022;
+    }*/
+  }
+
+  &--button{
+    font-size: 1.5rem;
+    color: $color-primary-1;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    background-color: $color-primary-3;
+
+    &:hover{
+      background-color: $color-primary-4;
+    }
+  }
+
+  &--error{
+    color: $color-secondary-2;
+  }
+  &--heading{
+    @include heading(600);
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+  }
+}

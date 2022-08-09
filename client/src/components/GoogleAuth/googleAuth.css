@@ -1,0 +1,19 @@
+.css-i4bv87-MuiSvgIcon-root {
+  margin-right: 0.5rem;
+}
+
+#button-in {
+  background-color: #FF0000;
+}
+#button-in:hover {
+  background-color: #BC0022;
+}
+
+#button-out {
+  background-color: #2D31FA;
+}
+#button-out:hover {
+  background-color: #051367;
+}
+
+/*# sourceMappingURL=googleAuth.css.map */

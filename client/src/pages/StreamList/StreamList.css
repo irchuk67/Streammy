@@ -1,0 +1,37 @@
+.streams {
+  margin: 1.5rem;
+}
+.streams--heading {
+  font-weight: 600;
+}
+.streams--list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(min-content, 1fr));
+  grid-column-gap: 1rem;
+}
+.streams--list__item {
+  padding: 1rem;
+  box-shadow: 0 0.2rem 1rem rgba(5, 19, 103, 0.3);
+  display: flex;
+}
+.streams--list__item--content {
+  margin-left: 0.5rem;
+}
+.streams--list__item--title {
+  color: #051367;
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+.streams--list__item--description {
+  color: #051367;
+  font-size: 1.2rem;
+}
+
+#photo {
+  height: 4rem;
+  width: 4rem;
+  color: #5D8BF4;
+}
+
+/*# sourceMappingURL=StreamList.css.map */

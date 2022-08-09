@@ -1,0 +1,45 @@
+$dark-gray-1: #414042;
+
+$color-primary-1: #DFF6FF;
+$color-primary-2: #5D8BF4;
+$color-primary-3: #2D31FA;
+$color-primary-4: #051367;
+
+$color-secondary-1: #FF0000;
+$color-secondary-2: #BC0022;
+
+@mixin heading($font-weight){
+  text-decoration: none;
+  color: $color-primary-4;
+  font-size: 2rem;
+  font-weight: $font-weight;
+}
+
+@mixin button{
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: .5rem 1.5rem;
+  color: white;
+  border: none;
+  border-radius: .5rem;
+  transition: all .2s;
+}
+
+@mixin simpleButton{
+  background-color: $color-primary-3;
+
+  &:hover{
+    background-color: $color-primary-4;
+  }
+}
+
+@mixin dangerousButton{
+  background-color: $color-secondary-1;
+
+  &:hover{
+    background-color: $color-secondary-2;
+  }
+}
+
+
